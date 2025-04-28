@@ -2,31 +2,63 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>EasterEggScoreboard</title>
+  <title>🐣 Easter Egg Scoreboard 🥚</title>
   <style>
     body {
-      font-family: sans-serif;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #f0f8ff, #e6e6fa);
+      height: 100vh;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .card {
+      background: white;
       padding: 2em;
-      background: #f9f9f9;
+      border-radius: 1em;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+      max-width: 400px;
+      width: 90%;
     }
+
     h1 {
-      color: #222;
+      color: #5a189a;
+      font-size: 2em;
+      margin-bottom: 0.5em;
     }
+
+    p {
+      color: #333;
+      margin-bottom: 1.5em;
+    }
+
     ul {
       list-style: none;
       padding: 0;
+      margin: 0;
     }
+
     li {
-      padding: 0.3em 0;
+      padding: 0.5em 0;
+      font-size: 1.2em;
+    }
+
+    strong {
+      color: #0077b6;
     }
   </style>
 </head>
 <body>
-  <h1>EasterEggScoreboard</h1>
-  <p>Here's how many students have turned in the extra credit assignment:</p>
-  <ul>
-    <li>💡 ECO 101: <strong>107 submissions</strong></li>
-    <li>📘 ECO 102: <strong>66 submissions</strong></li>
-  </ul>
+  <div class="card">
+    <h1>🐣 Easter Egg Scoreboard 🥚</h1>
+    <p>Here's how many students have cracked the egg 🥳:</p>
+    <ul>
+      <li>💡 ECO 101: <strong>107 submissions</strong></li>
+      <li>📘 ECO 102: <strong>66 submissions</strong></li>
+    </ul>
+  </div>
 </body>
 </html>
